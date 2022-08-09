@@ -1,0 +1,13 @@
+var a = Math.floor(Math.random() * 90 + 10);
+var b = Math.floor(Math.random() * 90 + 10);
+var c = Math.floor(Math.random() * 90 + 10);
+var d = Math.floor(Math.random() * 90 + 10);
+var e = Math.floor(Math.random() * 90 + 10); 
+console.log("Five Numbers are :");
+console.log(a+" "+b+" "+c+" "+d+" "+e);
+let sum = a + b + c + d + c;
+let avg = (a + b + c + d + c)/5;
+console.log("Sum :");
+console.log(sum);
+console.log("Average :");
+console.log(avg);
