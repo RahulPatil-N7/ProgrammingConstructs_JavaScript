@@ -1,0 +1,20 @@
+var a = Math.floor(Math.random() * 900 + 100);
+var b = Math.floor(Math.random() * 900 + 100);
+var c = Math.floor(Math.random() * 900 + 100);
+var d = Math.floor(Math.random() * 900 + 100);
+var e = Math.floor(Math.random() * 900 + 100); 
+console.log("Five Numbers are :");
+console.log(a+" "+b+" "+c+" "+d+" "+e);
+let maximum = a;
+if(b > maximum) maximum = b;
+if(c > maximum) maximum = c;
+if(d > maximum) maximum = d;
+if(e > maximum) maximum = e;
+console.log("Maximum Number :"+ maximum);
+let minimum = a;
+if(b < minimum) minimum = b;
+if(c < minimum) minimum = c;
+if(d < minimum) minimum = d;
+if(e < minimum) minimum = e;
+console.log("Minimum Number :"+ minimum);
+
